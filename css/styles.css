@@ -1,0 +1,386 @@
+* {
+     -webkit-box-sizing: border-box;
+             box-sizing: border-box;
+}
+ html, body{
+     font-size: 12px;
+     background: black;
+     color: #fff;
+     width: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+     margin: 0;
+     padding: 0;
+     -webkit-box-sizing: border-box;
+             box-sizing: border-box;
+}
+
+h2 {
+     font-weight: 300;
+}
+ .one, .two, .three, .four, .five{
+     width: 50%;
+     height: 680px;
+     position: relative;
+     padding-top: 50px;
+}
+ .one{
+     background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+ .two{
+     background: #e52d27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+ .three{
+     background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+ .four{
+     background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+ .content{
+     position: absolute;
+     width: 480px;
+     height: auto;
+     left: 50%;
+     top: 20%;
+     margin-left: -240px;
+}
+ .three .content{
+     position: absolute;
+     width: 480px;
+     height: 295;
+     left: 50%;
+     top: 20%;
+     margin-left: -240px;
+}
+ input{
+     -webkit-box-shadow: 10px solid #f0f0f0;
+             box-shadow: 10px solid #f0f0f0;
+}
+ input[type="text"], input[type="email"], input[type="password"] {
+     -webkit-box-shadow: 10px solid #f0f0f0;
+             box-shadow: 10px solid #f0f0f0;
+     height: 40px;
+}
+ .form-group select {
+     border: 0;
+     border-radius: 0!important;
+     font-size: inherit;
+     height: 40px!important;
+     -webkit-box-shadow: 10px solid #f0f0f0;
+             box-shadow: 10px solid #f0f0f0;
+}
+ button.btn-solid{
+     width: 100%;
+     color: #01a1fe;
+     background: #fff;
+     height: 40px;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+/* YOUTUBE SECTION ------------------------------- */
+ input[type="search"] {
+     padding: 15px;
+     padding-right: 43px;
+     font-size: 1.8em;
+     color: #cc0000;
+     font-weight: 300;
+     border: 5px solid #f0f0f0;
+     -webkit-box-shadow: 10px solid #f0f0f0;
+             box-shadow: 10px solid #f0f0f0;
+     background: #fff;
+     -webkit-appearance: none;
+     border-radius: 3px;
+}
+ input::-webkit-input-placeholder{
+     color: blue;
+}
+ input:-ms-input-placeholder{
+     color: blue;
+}
+ input::-ms-input-placeholder{
+     color: blue;
+}
+ input::placeholder{
+     color: blue;
+}
+ #search-btn {
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     height: 50px;
+     width: 50px;
+     color: red;
+     border: 0;
+     cursor: pointer;
+}
+ #search-btn svg {
+     fill: red;
+     width: 28px;
+}
+ #search-btn:hover {
+     filter: alpha(opacity=90);
+     opacity: 0.3;
+}
+ ul#results {
+     padding: 0;
+     display: flex;
+}
+#results li {
+    background: #fff;
+    list-style: none;
+    overflow: auto;
+    margin-right: 6px;
+    width: 50%;
+    height: auto;
+    padding: 0;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+
+ .list-left {
+     float: left;
+     width: 100%;
+}
+ .list-left img {
+     width: 100%;
+     vertical-align: middle;
+}
+ .list-right {
+     float: right;
+     width: 100%;
+     padding: 10px;
+}
+ .list-right h2 {
+     margin: 0;
+     font-weight: 400;
+     line-height: 1.2;
+     font-size: 14px;
+}
+ small{
+     color: #ccc;
+}
+ .list-right p {
+     display: none;
+}
+ .cTitle {
+     color: #dd2826;
+}
+ .button-container {
+     margin-top: 25px;
+}
+ .paging-button {
+     background: #f4f4f4;
+     padding: 12px 15px;
+     border: 0;
+     border-radius: 3px;
+     color: #cd0000;
+     margin: 10px;
+     cursor: pointer;
+}
+ button.paging-button:last-child {
+     float: right;
+}
+
+/* VIDEO SECTION ------- */
+
+.video-wrapper{
+     position: relative;
+     width: 100%;
+     height: 100%;
+}
+
+.video-overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0,.6);
+}
+
+
+video, #map {
+    -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.32);
+}
+ .text-over-video h5{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     -ms-transform: translateX(-50%) translateY(-50%);
+         transform: translateX(-50%) translateY(-50%);
+     font-size: 18px;
+     border: 1px solid rgba(255,255,255,.4);
+     padding: 6px 10px;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-size: 10px;
+     transition: all 1s ease;
+}
+
+/* GOOGLE MAP============*/
+
+#map{
+     width: 100%;
+     height: 295px;
+}
+
+/* floating logos============*/
+
+
+
+ul.logosItems{
+     list-style: none;
+     outline: 1px solid white;
+     overflow: hidden;
+     height: 250px;
+     white-space: nowrap;
+}
+
+ul.logosItems li{
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+/*     animation: floatingLogos 25s ease-in-out infinite;
+*/     margin: 15px;
+}
+
+.logo-1 {
+    background: #fff url(../img/logos-sprite.png) 0 0;
+    background-size: 400px;
+}
+
+.logo-2 {
+     width: 60px;
+     height: 60px;
+    background: #fff url(../img/logos-sprite.png) 0 0;
+    background-size: 400px;
+}
+
+/*li.small{
+     width: 40px;
+     height: 40px;
+}
+
+li.medium{
+     width: 60px;
+     height: 60px;
+}
+
+li.big{
+     width: 80px;
+     height: 80px;
+}*/
+
+
+
+@-webkit-keyframes floatingLogos {
+     0%, 100%{
+           transform: translateY(-10px);
+           transform: translateX(-400px);   
+      }
+     100% { transform: translateY(10px);
+           transform: translateX(400px); 
+      }
+}
+@-o-keyframes floatingLogos {
+     0%, 100%{
+           transform: translateY(-10px);
+           transform: translateX(-400px);   
+      }
+     100% { transform: translateY(10px);
+           transform: translateX(400px); 
+      }
+}
+@-moz-keyframes floatingLogos {
+     0%, 100%{
+           transform: translateY(-10px);
+           transform: translateX(-400px);   
+      }
+     100% { transform: translateY(10px);
+           transform: translateX(400px); 
+      }
+}
+@keyframes floatingLogos {
+     0%, 100%{
+           transform: translateY(-10px);
+           transform: translateX(-400px);   
+      }
+     100% { transform: translateY(10px);
+           transform: translateX(400px); 
+      }
+}
+
+/*IPHONE VIEWS -------------- */
+@media (min-width: 0px) and (max-width: 750px) {
+
+ .one{
+     width: 100%;
+     height: 600px;
+     position: relative;
+     padding-top: 30px;
+}
+
+.two, .three, .four{
+     width: 100%;
+     height: 380px;
+     position: relative;
+     padding-top: 30px;
+}
+
+ .content{
+     position: absolute;
+     width: 100%;
+     height: auto;
+     left: 0%;
+     top: 15%;
+     margin-left: 0;
+     padding: 20px;
+}
+
+ .three .content{
+     position: absolute;
+     width: 100%;
+     left: 0;
+     top: 50%;
+     margin-left: 0;
+     margin-top: -145px;
+}
+
+#map{
+     height: 225px;
+}
+
+video{
+     width: 100%;
+     height: auto;
+}
+
+#search-btn {
+    right: 30px;
+    top: 31px;
+}
+
+
+}
+
+
